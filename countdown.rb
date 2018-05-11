@@ -12,7 +12,7 @@ end
 def countdown_with_sleep(integer)
  while integer > 0
      integer-=1
-      sleep(5)
+      sleep(1)
     end
       puts "0 left. HAPPY NEW YEAR!"
   end
